@@ -99,12 +99,14 @@ def finals(vs,writer,inp):
 						if D[i, j] < MIN_DISTANCE:
 							violate.add(i)
 							violate.add(j)
+							cv2.line(frame,tuple(centroids[i]),tuple(centroids[j]),(0,0,255),2)							
 			elif(inp is False):
 				for i in range(0, D.shape[0]):
 					for j in range(i, D.shape[1]):
 						if D[i, j] < MIN_DISTANCE:
 							violate.add(i)
 							violate.add(j)
+							cv2.line(frame,tuple(centroids[i]),tuple(centroids[j]),(0,0,255),2)
 		for (i, (prob, bbox, centroid)) in enumerate(results):
 			(startX, startY, endX, endY) = bbox
 			(cX, cY) = centroid
