@@ -15,5 +15,5 @@ There were basically three main steps involved in over seeing the social distanc
 ![alt text](images/result.png)
 In the given image green boxes are indicating that people are at safe distance i.e.atleast 50 cm apart.
 In the following image we can see that there are 15 violations indicated by the program(the people in red boxes)that is there are 15 people violating the social distancing norm at that moment which is dangerous and thus the warning sign appears.
-![alt text](images/result2.png)
+![alt text](images/result2.PNG)
 
