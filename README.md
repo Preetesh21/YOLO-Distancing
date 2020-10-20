@@ -1,4 +1,7 @@
 # YOLO-Distancing
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 This repo contains the source code for checking if people in a video maintain social distancing or not.
 The covid pandemic has shocked the world and the best way of  prevention at this moment is practicing **Social Distancing** that is maintaining atleast 50 cm distance from other people.
 This method reduces the chances of mass spread of infection.
